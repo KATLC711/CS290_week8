@@ -58,7 +58,6 @@ app.post('/post-request', function (req, res) {
 
     var context = {};
     context.dataList = qParams;
-
     context.name = req.body.name;
     context.location = req.body.location;
     context.color = req.body.color;
